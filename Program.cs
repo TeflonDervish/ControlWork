@@ -17,3 +17,10 @@
 
     return result;
 }
+
+string[] originalArray = { "apple", "banana", "cat", "dog", "elephant" };
+string[] filteredArray = FilterStrings(originalArray);
+
+Console.WriteLine("Исходный массив строк: {0}", string.Join(", ", originalArray));
+Console.WriteLine("Отфильтрованный массив строк (длина <= 3 символов): {0}", string.Join(", ", filteredArray));
+
